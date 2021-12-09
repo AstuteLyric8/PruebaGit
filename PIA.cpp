@@ -45,7 +45,7 @@ main(){
 void menu()
 {
 	
-	printf("		MENU DE OPERACIONES			\n");	
+	printf("		MENU FALSO DE OPERACIONES			\n");	
 	printf("//////////////////////////////////////////////////\n");
 	printf("	1.- Suma de numeros \n");
 	printf("	2.- Resta de numeros \n");	
