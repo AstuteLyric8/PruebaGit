@@ -12,7 +12,7 @@ int MF[100][100];
 float A,B,R;
 void marco(); void menu(); void op1(); void op2(); void op3(); void op4(); void op5(); void op6(); 
 void op7(); void op8(); void op9(); void op10(); void op11(); void op12(); void op13(); void op14();
-void op15();
+void op15(); void op16();
 main(){
 	do
 	{
@@ -34,10 +34,11 @@ main(){
 		case 13: op13(); break;
 		case 14: op14(); break;
 		case 15: op15(); break;
+		case 16: op16(); break;
 	
 	}
 }
-	while(op!=14);
+	while(op!=16);
 }
 
 
@@ -60,7 +61,8 @@ void menu()
 	printf("	12.- Resta de las matrices\n");
 	printf("	13.- Alternar filas de Matriz A\n");
 	printf("	14.- Alternar filas de Matriz B\n");
-	printf("	15.- Salir   \n");
+	printf("	15.- PRUEBA EN GIT\n");
+	printf("	16.- Salir   \n");
 	printf("//////////////////////////////////////////////////\n\n\n");
 	printf("Indique una opcion de la lista: \n" ); scanf("%d",&op);
 	system("cls");
@@ -362,6 +364,14 @@ void op14(){
 }
 
 void op15(){
+	printf("PRUEBA \n");
+	printf("ESTO ES UNA PRUEBA \n");
+
+	system("pause");
+	system("cls");
+	}
+	
+void op16(){
 
 	printf("Salir");
 	printf("Quiere salir?= y=1/n=0\n");
