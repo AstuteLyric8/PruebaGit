@@ -45,10 +45,10 @@ main(){
 void menu()
 {
 	
-	printf("		MENU FALSO DE OPERACIONES			\n");	
+	printf("		MENU FALSO DE OPERACIONES PRUEBA COMMIT			\n");	
 	printf("//////////////////////////////////////////////////\n");
-	printf("	1.- Suma de numeros \n");
-	printf("	2.- Resta de numeros \n");	
+	printf("	1.- Suma de tres numeros \n");
+	printf("	2.- Resta de numeros FALSA\n");	
 	printf("	3.- Multiplicacion de numeros \n");
 	printf("	4.- Divsion de numeros \n");
 	printf("	5.- Elevar un numero a una potencia \n");
